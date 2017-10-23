@@ -1,0 +1,23 @@
+{
+  "name": "viewport-util-npm-module",
+  "version": "1.0.0-alpha",
+  "description": "NPM publish test",
+  "main": "js/index.js",
+  "typings": "js/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf js",
+    "build": "npm run clean && tsc",
+    "build:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanizer/viewport-util-npm-module.git"
+  },
+  "keywords": [
+    "typescript",
+    "viewport"
+  ],
+  "author": "nsreceipts@yahoo.com",
+  "license": "ISC"
+}
