@@ -10,7 +10,7 @@ const VIEWPORTS    : any = {
   large  : 1030
 };
 
-export class ViewportUtil {
+class ViewportUtil {
 
   static gi() {
     if(!_instance) {
@@ -71,3 +71,5 @@ export class ViewportUtil {
   }
 
 }
+
+export = ViewportUtil;

@@ -2,7 +2,6 @@
 /**
  * Listen for window resize and dispatch changes to viewport
  */
-Object.defineProperty(exports, "__esModule", { value: true });
 var _instance;
 var RETINA_QUERY = 'only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 1.5dppx), screen and (min-resolution: 144dpi)';
 var VIEWPORTS = {
@@ -59,5 +58,5 @@ var ViewportUtil = /** @class */ (function () {
     };
     return ViewportUtil;
 }());
-exports.ViewportUtil = ViewportUtil;
+module.exports = ViewportUtil;
 //# sourceMappingURL=index.js.map

@@ -1,4 +1,4 @@
-export declare class ViewportUtil {
+declare class ViewportUtil {
     static gi(): ViewportUtil;
     private currentViewport;
     private currentRetina;
@@ -9,3 +9,4 @@ export declare class ViewportUtil {
     getViewport(): string;
     updateRetina(): void;
 }
+export = ViewportUtil;
