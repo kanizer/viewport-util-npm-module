@@ -1,6 +1,6 @@
 {
   "name": "viewport-util-npm-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM publish test",
   "main": "js/index.js",
   "typings": "js/index",
