@@ -12,12 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kanizer/viewport-util-npm-module.git"
+    "url": "git+https://github.com/kanizer/viewport-util-npm-module.git"
   },
   "keywords": [
     "typescript",
     "viewport"
   ],
   "author": "nsreceipts@yahoo.com",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanizer/viewport-util-npm-module/issues"
+  },
+  "homepage": "https://github.com/kanizer/viewport-util-npm-module#readme"
 }
